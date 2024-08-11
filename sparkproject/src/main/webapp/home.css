@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* Add your CSS styles for all pages here */
+body {
+    font-family: '@Microsoft JhengHei UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url("images/tags1.jpg");
+    background-size: cover; /* Ensure the background image covers the entire page */
+    background-position: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #7e916e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.content-box {
+    max-width: 470px;
+    max-height: 600px;
+    margin: 0 auto;
+    background-color: #D7FAF8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(6, 0, 0, 0.631);
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: #0d7d7b;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #1e380d;
+}
+
+input,
+textarea {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #606d57;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #032f4f;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Microsoft JhengHei UI;
+}
+
+button:hover {
+    background-color: #3b9bdb;
+}
+
+.back-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.back-btn:hover {
+    background-color: #555;
+}
+
+/* Navigation Bar */
+/*nav {
+            background-color: #4C5354;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a,
+        nav ul li form button {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            display: block;
+            font-size: 16px;
+        }*/
+/* Styling for the search bar container */
+/* Styling for the search bar container */
+.search-container {
+    text-align: center; /* Center-align the search bar */
+    margin-bottom: 10px; /* Space below the search bar */
+}
+
+.search-container form {
+    display: flex; /* Align items in a row */
+    justify-content: center; /* Center the form items */
+    margin: 0; /* Remove default margin */
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    border: 1px solid #606d57;
+    border-radius: 50px 0 0 50px; /* Round corners */
+    font-size: 16px;
+    height: 35px; /* Adjust height to match button */
+    outline: none; /* Remove default focus outline */
+}
+
+.search-container button {
+    padding: 0 20px;
+    border: 1px solid #606d57;
+    border-radius: 0 50px 50px 0; /* Round corners */
+    background-color: #032f4f;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    height: 35px; /* Adjust height to match input */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
+}
+
+.search-container button:hover {
+    background-color: #3b9bdb;
+}
+
+/* Navigation Bar */
+/* Ensure no margin or padding affects the width of the navigation bar */
+nav {
+    background-color: #4C5354;
+    color: white;
+    padding: 10px 0; /* Adjust padding as needed */
+    width: 100%; /* Ensure nav spans full width */
+    box-sizing: border-box; /* Include padding and border in width */
+    position: relative; /* Ensures it stays in place */
+    z-index: 1000; /* Keeps it above other content */
+}
+
+/* Styling for the navigation list */
+nav ul {
+    list-style: none;
+    display: flex; /* Ensure items are side by side */
+    justify-content: center; /* Center items horizontally */
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for each navigation item */
+nav ul li {
+    margin: 0 15px; /* Space between items */
+}
+
+/* Styling for links and buttons in the nav */
+nav ul li a,
+nav ul li form button {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: block;
+}
+
+/* Hover effect for links and buttons */
+nav ul li a:hover,
+nav ul li form button:hover {
+    text-decoration: underline;
+    background-color: #4C5354;
+}

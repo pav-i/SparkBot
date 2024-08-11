@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* Add your CSS styles for all pages here */
+body {
+    font-family: '@Microsoft JhengHei UI', sans-serif;
+    margin: 100px;
+    padding: 0;
+    text-align: center;
+    	 background-image: url("images/tags1.jpg");
+
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #7e916e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+.content-box {
+    max-width: 600px;
+    max-height: 600px;
+    margin: 0 auto;
+    background-color: #d5e7eaca;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(6, 0, 0, 0.631);
+    margin-top: 50px;
+    box-align:center;
+}
+h1 {
+    text-align: center;
+    color: rgb(7, 73, 71);
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    margin-top: 10px;
+    color: #1e380d;
+}
+
+input,
+textarea {
+    width: 50%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #606d57;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(4, 64, 108);
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block; /* Center-align the button */
+    font-family:Microsoft JhengHei UI;
+}
+
+button:hover {
+    background-color: #3b9bdb;
+}
+
+.back-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block; /* Center-align the button */
+}
+
+.back-btn:hover {
+    background-color: #555;
+}
