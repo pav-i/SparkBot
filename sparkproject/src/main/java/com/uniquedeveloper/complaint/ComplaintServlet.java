@@ -29,7 +29,7 @@ public class ComplaintServlet extends HttpServlet {
                 Class.forName("com.mysql.cj.jdbc.Driver");
                 String url = "jdbc:mysql://localhost:3306/helpdesk";
                 String user = "root";
-                String pass = "pavi_0mysql";
+                String pass = "database_pw";
 
                 try (Connection connection = DriverManager.getConnection(url, user, pass)) {
                     String complaintQuery = "INSERT INTO complaints (userid, complaint) VALUES (?, ?)";
